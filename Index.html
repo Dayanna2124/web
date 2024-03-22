@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="author" content="Diana Torres">
+    <meta name="description" content="Ajedrez">
+    <meta name="keywords" content="Ajedrez Campeonatos Escuelas Historia Libros Olimpiadas Videojuegos">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <script src="bootstrap-5.2.3-dist/js/jquery.slim.min.js"></script>
+    <script src="bootstrap-5.2.3-dist/js/popper.min.js"></script>
+    <script src="bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+    <link href="bootstrap-5.2.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="CSS/estilosFooterHeader.css" rel="stylesheet" type="text/css">
+    <link href="CSS/estilosPolaroid.css" rel="stylesheet" type="text/css"/>
+    <link href="CSS/FuentesEstilos.css" rel="stylesheet" type="text/css">
+    <link rel="shortcut icon" href="Ico/icono.ico" type="image/x-icon">
+	<title>Ajedrez</title>
+</head>
+<body>
+<div class="container-fluid">
+	<nav class="row">
+       <div class="col-sm-4 mt-2 mb-2">
+         <img src="Logo/Logo.jpg" class="rounded logo" alt="Logo"><span class="titulo">Ajedrez</span>
+       </div>
+        <div class="col-sm-6 mt-5">
+            <ul class="nav justify-content-end">
+                <li class="nav-item">
+                    <a class="nav-link cinco" href="ajedrez.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link cinco" href="Html/formulario.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-sm-2 mt-5">
+			<div class="btn-group"> <!-- Aquí tengo la clase cinco -->
+		  		<button class="btn btn-primary-outline dropdown-toggle cinco" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-expanded="false"> Menú </button>
+			    <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+					<li><a class="dropdown-item" href="Html/Campeonatos.html">Campeonatos</a></li>
+					<li><a class="dropdown-item" href="Html/Escuelas.html">Escuelas</a></li>
+					<li><a class="dropdown-item" href="Html/Fichas.html">Fichas</a></li>
+					<li><a class="dropdown-item" href="Html/Historia.html">Historia</a></li>
+					<li><a class="dropdown-item" href="Html/Libros.html">Libros</a></li>
+					<li><a class="dropdown-item" href="Html/Tablero.html">Tablero</a></li>
+					<li><a class="dropdown-item" href="Html/VideoJuegos.html">Vídeojuegos</a></li>
+			    </ul>
+		    </div>
+		</div>
+    </nav>
+</div>
+<div class="container-fluid">
+	<header class="row">
+		<div class="col">
+			<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+			  <div class="carousel-indicators">
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+				<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+			  </div>
+			  <div class="carousel-inner">
+				<div class="carousel-item active">
+				  <img src="Img/header4.jpg" class="d-block panoramica w-100" alt="Fichas y Tablero de Ajedrez">
+				  <div class="carousel-caption d-none d-md-block text-center">
+					<h2>La belleza en el Ajedrez</h2>
+					<p>La belleza de un movimiento no se refleja sólo en su apariencia, sino en el pensamiento detrás de él.</p>
+					<p>(Dr. S.Tarrasch).</p>
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <img src="Img/header5.jpg" class="d-block panoramica w-100" alt="Fichas y Tablero de Ajedrez">
+				  <div class="carousel-caption d-none d-md-block text-center">
+					<h2>Frase célebre...</h2>
+					<p>
+						Desconfianza es la característica más necesaria de un jugador de Ajedrez...
+					</p>
+				  </div>
+				</div>
+				<div class="carousel-item">
+				  <img src="Img/fichas1.jpg" class="d-block panoramica w-100" alt="Fichas y Tablero de Ajedrez">
+				  <div class="carousel-caption d-none d-md-block w-100 text-center">
+					<h2>Ajedrez</h2>
+					<p>El Ajedrez es una guerra en un tablero. El objetivo es aplastar la mente del oponente</p>
+					<p>(Bobby Fischer)</p>
+				  </div>
+				</div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+		</div>
+	</header>
+</div>
+	<div class="container my-3">
+		<nav class="row">
+			<ul class="nav nav-tabs justify-content-center listado">
+				<li class="nav-item"><a class="nav-link" href="Html/Campeonatos.html" >Campeonatos</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/Escuelas.html" >Escuelas</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/Fichas.html" >Fichas</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/Historia.html" >Historia</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/Libros.html" >Libros</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/Tablero.html" >Tablero</a></li>
+			  	<li class="nav-item"><a class="nav-link" href="Html/VideoJuegos.html" >Videojuegos</a></li>
+			</ul>
+		</nav>
+        <section class="row mt-5 px-5 py-2">
+            <main class="col-sm-5">
+                <div>
+                    <div class="polaroid-images mt-5">
+                        <a href="" title="Fichas del Ajedrez"><div><img height="200" src="Img/fichasAjedrez.jpg" alt="Fichas del Ajedrez" title="Fichas del Ajedrez" /></div></a>
+                        <a href="" title="Fichas del Ajedrez"><div><img height="200" src="Img/fichas.jpg" alt="Fichas del Ajedrez" title="Fichas del Ajedrez" /></div></a>
+                        <a href="" title="Tablero del Ajedrez"><div><img height="200" src="Img/TablerodelAjedrez2.jpg" alt="Tablero del Ajedrez" title="Tablero del Ajedrez" /></div></a>
+                    </div>
+                </div>
+            </main>
+            <aside class="col-sm-7 mt-4">
+                <div>
+                    <h1>Introducción</h1>
+                    <p>
+                        El ajedrez, un juego milenario que ha desafiado mentes y cautivado corazones a lo largo de la historia, es una obra maestra de estrategia, habilidad y creatividad.
+                    </p>
+                    <p>
+                        Desde sus humildes orígenes en la India hace más de 1500 años, el ajedrez ha evolucionado hasta convertirse en un deporte mental globalmente reconocido, jugado y apreciado por millones de personas de todas las edades y culturas.
+                    </p>
+                    <p>
+                        Con su tablero cuadriculado, sus piezas únicas y sus reglas inmutables, el ajedrez ofrece un campo de batalla donde los jugadores se sumergen en un mundo de tácticas ingeniosas, sacrificios audaces y duelos intelectuales que desafían los límites de la imaginación humana.
+                    </p>
+                    <p>
+                        Esta introducción busca explorar la fascinante historia, la profunda filosofía y la eterna belleza del ajedrez, un universo infinito donde cada partida es una nueva oportunidad para descubrir la grandeza del juego real.
+                    </p>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end"> <!--Button trigger modal-->
+				<button type="button" class="btn btn-outline-secondary mt-3 titol" data-bs-toggle="modal" data-bs-target="#exampleModal"> Variantes del Ajedrez </button>
+				<!-- MODAL -->
+				<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				  <div class="modal-dialog">
+					<div class="modal-content">
+					  <div class="modal-header">
+						<h3 class="modal-title fuente" id="exampleModalLabel"> Curiosidades del Ajedrez </h3>
+						<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+					  </div>
+					  <div class="modal-body">
+					  	<p>
+					  		Si el ajedrez clásico no te atrae, no te preocupes. Existen variantes creativas y emocionantes que pueden conquistarte. Aquí tienes algunas de las más originales: 
+					  	</p>
+					  	<p>
+					  		<span class="resaltado">1. Ajedrez aleatorio de Fischer (Ajedrez 960):</span> Propuesto por Bobby Fischer, este juego mantiene el formato del tablero y las piezas, pero cambia la colocación inicial. Hay 960 posiciones iniciales posibles generadas de forma aleatoria. Aunque tiene algunos problemas, es popular y se puede jugar fácilmente en servidores como <a class="sinLinea" href="https://lichess.org/" target="_blank">LiChess.</a>
+					  	</p>
+					  	<p>
+					  		<span class="resaltado">2. Ajedrez de Dunsany:</span> En esta variante, los jugadores mantienen el formato del tablero y los tipos de piezas, pero difieren en la cantidad de piezas iniciales. Uno de los jugadores tiene las mismas piezas y disposición que en el ajedrez convencional, mientras que el otro cuenta con cuatro filas de peones. Las negras mueven primero y solo ellas pueden avanzar dos escaques en el primer movimiento de sus peones.
+					  	</p>
+					  	<p>
+					  		<span class="resaltado">3. Ajedrez circular:</span> Aquí, la forma del tablero cambia, pero el movimiento de las piezas sigue siendo similar. El tablero tiene cuatro anillos, cada uno con 16 escaques.
+					  	</p>
+					  	<p>
+					  	    <span class="resaltado">4. Ajedrez pierde-gana (anti-ajedrez):</span> También conocido como ajedrez suicida, en esta variante el objetivo es perder todas tus piezas. Cada vez que una pieza tuya es capturada, la colocas de nuevo en el tablero. El ganador es quien se queda sin piezas primero.
+					  	</p>
+					  	<p>
+					  	    Estas variantes demuestran que el ajedrez es un juego lleno de posibilidades y creatividad ♟️.
+					  	</p>
+					  </div>
+					  <div class="modal-footer">
+						<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+					  </div>
+					</div>
+				  </div>
+				</div>
+			</div>
+            </aside>
+            <div class="my-5">
+            	<iframe src="https://lostiemposdelajedrez.blogspot.com/" height="1000px" width="100%" title="Los Tiempos del Ajedrez"></iframe>
+            </div>
+        </section>
+	</div>
+	<footer class="container-fluid">
+		<div class="contenedor-imagen row">
+            <div class="col-sm-12 mt-5 mb-5">
+                <a href="https://es-es.facebook.com/" target="_blank"><img class="imagenes seis" src="Img/Facebook.jpg" alt="Facebook"></a>
+                <a href="https://twitter.com/" target="_blank"><img class="imagenes seis" src="Img/Twiter.jpg" alt="Twiter"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img class="imagenes seis" src="Img/Instagram.jpg" alt="Instagram"></a>
+                <a href="https://www.youtube.com/" target="_blank"><img class="imagenes seis" src="Img/Youtube.jpg" alt="Youtube"></a>
+                <p>Copyright 2009-2013 Cssauthor.com</p>
+            </div>
+		    <a class="btn btn-outline-white boton mb-3" href="Html/MapaWeb.html" >Mapa Web</a>
+		</div>
+	</footer>
+	
+	<script>
+        window.onload= function () {
+        var images = document.getElementsByTagName("img");
+        for(var i=0, max=images.length;i<max;i++){
+                images[i].style.opacity = '1';
+            };
+        };
+    </script>
+    
+</body>
+</html>
+
+

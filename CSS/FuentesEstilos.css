@@ -1,0 +1,95 @@
+.fuentes {
+	font-family: 'Beauty Wind';
+	font-size: 23px;
+	color: #0180a7;
+}
+
+.fuente {
+    font-family: 'Beauty Wind';
+	font-size: 23px;
+	color: black;
+}
+
+p {
+	font-family: serif;
+    font-size: 20px;
+}
+
+/* PARA EL navbar del MAIN */
+.parraf {
+    font-family: serif;
+    font-size: 21px;
+}
+
+.escul { /* PARA EL TITULO AJEDREZ DE LA LIST-GROUP */
+    font-family: 'Ephesis';
+    font-size: 37px;
+    color: #ffd624;
+    font-weight: 600;
+}
+
+.titol { /* PARA LOS a DE LAS LIST-GROUP */
+    font-family: 'Ephesis';
+    font-size: 25px;
+    text-decoration-line: none;
+    font-weight: 500;
+}
+
+.titulo { /* Para el h1 del nav */
+    font-family: 'Ephesis';
+    color: #7b7b7b;
+    font-size: 33px;
+}
+
+.listado { /* PARA LA LISTA DEL NAV */
+    font-family: 'Ephesis';
+    font-size: 33px;
+}
+
+.listadosDos { /* PARA LA LISTA DEL MAPA WEB */
+    font-family: serif;
+	font-size: 19px;
+    color: #7b7b7b;
+}
+
+h1,h5 {
+	font-family: 'Ephesis';
+	font-size: 49px;
+	color: #7b7b7b;
+	text-align: center;
+}
+
+h2 {
+	color: antiquewhite;
+	font-family: 'Ephesis';
+	font-size: 40px;
+}
+
+h3 {
+	color: #7b7b7b;
+	font-family: serif;
+	font-size: 30px;
+}
+
+h4 {	
+	font-family: serif;
+	font-size: 25px;
+	text-align: center;
+    color: #0180a7;
+}
+
+h6 {
+    font-family: 'Beauty Wind';
+	font-size: 29px;
+	color: #0180a7;
+}
+
+.sinLinea {
+    text-decoration-line: none;
+}
+
+.resaltado {
+    font-family: serif;
+	font-size: 20px;
+    color: #0180a7;
+}

@@ -1,0 +1,39 @@
+#juego {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+    }
+
+.row {
+        display: flex;
+    }
+
+.casilla {
+        width: 90px;
+        height: 70px;
+        justify-content: center;
+        align-items: center;
+		border: 0.1px solid black;
+        display: flex;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+.tabla {
+    width: 50%;
+    height: 50%;
+	border-collapse: collapse; /* Para eliminar los espacios entre las celdas */
+}
+
+.fichas {
+    width: 55px;
+    height: 65px;
+}
+
+/* PERTENECE A LA CELDA
+        
+
+.casilla:hover {
+        background-color: lightgray;
+}

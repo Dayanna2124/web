@@ -1,0 +1,77 @@
+@font-face {
+	font-family: 'Ephesis';
+	src: url(../Fuentes/Ephesis/Ephesis-Regular.ttf);
+}
+
+@font-face {
+	font-family: 'Beauty Wind';
+	src: url(../Fuentes/beauty_wind/Beauty Wind.ttf);	
+}
+
+.panoramica {
+	height: 500px;
+}
+
+.fondo {
+	background-image: url(../Img/rey.jpg);
+	background-color: rgba (255,255,255, 0.9);
+}
+
+.enlaces {
+	text-decoration-line: none;
+	color: #7b7b7b;
+	font-size: 67;
+}
+
+footer {
+    margin-top: 2%;
+    background-image: url(../Img/footer1.jpg);
+    background-repeat: no-repeat;
+}
+
+.logo {
+    width: 150px;
+    height: 120px;
+    opacity: 0.4;
+}
+
+
+/* Para el btn-group del botón Menú del NAV de la CABECERA */
+.cinco {
+    font-family: 'Ephesis';
+    font-size: 27px;
+    color: #0180a7;
+}
+
+
+
+footer p { /* PARRAFO DEL FOOTER */
+    margin-top: 20px;
+    color: gray;
+    font-weight: bolder;
+    font-size: 11px;
+}
+
+.imagenes {
+    height: 30px;
+	width: 30px;
+	border-radius: 50%;
+}
+
+.seis { /* MARGENES DE LAS IMAGENES DEL FOOTER */
+    margin-right: 13px;
+}
+
+
+.contenedor-imagen {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

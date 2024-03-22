@@ -1,0 +1,46 @@
+.celda {
+    width: 50px;
+    height: 70px;
+    border-bottom: none;
+}
+
+.tabla {
+    width: 90%;
+    height: 100%;
+    border-collapse: collapse; /* Para eliminar los espacios entre las celdas */
+}
+
+.celda_light {
+    text-align: center;
+}
+
+.celda_num {
+    text-align: right;
+    font-weight: bold;
+    
+}
+
+/* Estilo para la primera fila */
+.tabla thead tr {
+    border-top: none; /* Elimina la línea inferior de la primera fila */
+    border-left: white;
+    border-right: white;
+    border-bottom: none;
+}
+
+/* Estilo para la primera columna */
+.tabla tbody tr td {
+    border: solid 1px black;/* Elimina la línea izquierda de la primera columna */
+}
+
+.blanco {
+    border-bottom: solid 1px white;
+    border-top: solid 1px white;
+    border-left: solid 1px white;
+    border-right: solid 1px black;
+}
+
+.fichas {
+    width: 55px;
+    height: 65px;
+}
